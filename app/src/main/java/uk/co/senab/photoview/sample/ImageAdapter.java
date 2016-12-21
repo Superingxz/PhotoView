@@ -1,5 +1,6 @@
 package uk.co.senab.photoview.sample;
 
+import android.graphics.Matrix;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,7 @@ import android.view.ViewGroup;
 public class ImageAdapter extends RecyclerView.Adapter<ImageViewHolder> {
 
     Listener mListener;
+
 
     public ImageAdapter(Listener listener) {
         mListener = listener;
